@@ -43,7 +43,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/drive",
 ]
 
-SHEET_NAME       = "Sheet1"
+SHEET_NAME       = "Orders"
 SPREADSHEET_ID   = os.environ["SPREADSHEET_ID"]
 DRIVE_FOLDER_ID  = os.environ["DRIVE_FOLDER_ID"]
 EBAY_LOGO_ID     = os.environ["EBAY_LOGO_FILE_ID"]
