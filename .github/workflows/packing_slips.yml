@@ -53,4 +53,5 @@ jobs:
           EBAY_LOGO_FILE_ID:           ${{ secrets.EBAY_LOGO_FILE_ID }}
           SHRATZ_LOGO_FILE_ID:         ${{ secrets.SHRATZ_LOGO_FILE_ID }}
           WHATNOT_QR_FILE_ID:          ${{ secrets.WHATNOT_QR_FILE_ID }}
+          DRIVE_OWNER_EMAIL:           ${{ secrets.DRIVE_OWNER_EMAIL }}
         run: python generate_packing_slips.py
